@@ -426,4 +426,4 @@ shinyApp(ui = ui, server = server)
 # Update the application
 #install.packages("rsconnect")
 #library(rsconnect)
-#rsconnect::deployApp("C:\\Users\\thorb\\OneDrive\\Skrivebord\\shinybeta")
+#rsconnect::deployApp(choose.dir())
